@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cyanite:cheese_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cyanite:cheese"
+  },
+  "show_notification": true
+}
