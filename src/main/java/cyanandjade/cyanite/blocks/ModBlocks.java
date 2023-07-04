@@ -39,7 +39,7 @@ public class ModBlocks {
 
     public static final Block CHEESE_BLOCK = registerBlock("cheese_block",
             new Block(FabricBlockSettings.create()
-                    .strength(2.0f, 2.0f)
+                    .strength(1.0f)
                     .mapColor(MapColor.YELLOW)
                     .sounds(BlockSoundGroup.NETHER_STEM)),
                     ModItemGroup.CYANITE_GROUP);
