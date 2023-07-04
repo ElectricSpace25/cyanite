@@ -13,6 +13,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
@@ -36,20 +37,12 @@ public class ModBlocks {
                     UniformIntProvider.create(0, 2)),
                     ModItemGroup.CYANITE_GROUP);
 
-//    public static final Block CHEESE_BLOCK = registerBlock("cheese_block",
-//            new Block(FabricBlockSettings.create()
-//                    .strength(4.5f, 3.0f)
-//                    .requiresTool()
-//                    .mapColor(MapColor.STONE_GRAY)
-//                    .instrument(Instrument.BASEDRUM),
-//                    UniformIntProvider.create(0, 2)),
-//            ModItemGroup.CYANITE_GROUP);
-//
-//    new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
-//
-
-
-    //Todo: make cheese block
+    public static final Block CHEESE_BLOCK = registerBlock("cheese_block",
+            new Block(FabricBlockSettings.create()
+                    .strength(2.0f, 2.0f)
+                    .mapColor(MapColor.YELLOW)
+                    .sounds(BlockSoundGroup.NETHER_STEM)),
+                    ModItemGroup.CYANITE_GROUP);
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> group) {
         registerBlockItem(name, block, group);

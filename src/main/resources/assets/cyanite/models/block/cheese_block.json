@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cyanite:block/cheese_block"
+  }
+}

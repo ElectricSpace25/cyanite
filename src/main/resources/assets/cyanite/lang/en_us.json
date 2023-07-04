@@ -3,6 +3,7 @@
   "item.cyanite.molten_cheese": "Molten Cheese",
   "block.cyanite.cheese_ore": "Cheese Ore",
   "block.cyanite.deepslate_cheese_ore": "Deepslate Cheese Ore",
-  "item.cyanite.cheese": "Cheese"
+  "item.cyanite.cheese": "Cheese",
+  "block.cyanite.cheese_block": "Cheese Block"
 
 }

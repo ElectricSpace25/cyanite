@@ -23,10 +23,6 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, PETRIFIED_CHEESE);
-        addToItemGroup(ItemGroups.INGREDIENTS, MOLTEN_CHEESE);
-        addToItemGroup(ItemGroups.FOOD_AND_DRINK, CHEESE);
-
         addToItemGroup(ModItemGroup.CYANITE_GROUP, PETRIFIED_CHEESE);
         addToItemGroup(ModItemGroup.CYANITE_GROUP, MOLTEN_CHEESE);
         addToItemGroup(ModItemGroup.CYANITE_GROUP, CHEESE);
