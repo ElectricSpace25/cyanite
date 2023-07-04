@@ -16,6 +16,7 @@ public class ModItems {
     //Items
     public static final Item PETRIFIED_CHEESE = registerItem("petrified_cheese", new Item(new FabricItemSettings()));
     public static final Item MOLTEN_CHEESE = registerItem("molten_cheese", new Item(new FabricItemSettings()));
+    public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CyaniteMod.MOD_ID, name), item);
@@ -24,10 +25,11 @@ public class ModItems {
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, PETRIFIED_CHEESE);
         addToItemGroup(ItemGroups.INGREDIENTS, MOLTEN_CHEESE);
+        addToItemGroup(ItemGroups.FOOD_AND_DRINK, CHEESE);
 
         addToItemGroup(ModItemGroup.CYANITE_GROUP, PETRIFIED_CHEESE);
         addToItemGroup(ModItemGroup.CYANITE_GROUP, MOLTEN_CHEESE);
-
+        addToItemGroup(ModItemGroup.CYANITE_GROUP, CHEESE);
     }
 
     public static void addToItemGroup (RegistryKey<ItemGroup> group, Item item) {

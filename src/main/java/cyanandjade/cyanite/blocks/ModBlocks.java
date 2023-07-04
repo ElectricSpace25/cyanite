@@ -36,6 +36,18 @@ public class ModBlocks {
                     UniformIntProvider.create(0, 2)),
                     ModItemGroup.CYANITE_GROUP);
 
+//    public static final Block CHEESE_BLOCK = registerBlock("cheese_block",
+//            new Block(FabricBlockSettings.create()
+//                    .strength(4.5f, 3.0f)
+//                    .requiresTool()
+//                    .mapColor(MapColor.STONE_GRAY)
+//                    .instrument(Instrument.BASEDRUM),
+//                    UniformIntProvider.create(0, 2)),
+//            ModItemGroup.CYANITE_GROUP);
+//
+//    new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
+//
+
 
     //Todo: make cheese block
 
