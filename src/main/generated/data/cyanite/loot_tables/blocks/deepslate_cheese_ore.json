@@ -38,13 +38,12 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "cyanite:stone_cheese"
+              "name": "cyanite:petrified_cheese"
             }
           ]
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "cyanite:blocks/deepslate_cheese_ore"
+  ]
 }

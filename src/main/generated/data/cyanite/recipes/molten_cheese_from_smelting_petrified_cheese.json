@@ -1,12 +1,11 @@
 {
   "type": "minecraft:smelting",
-  "category": "food",
+  "category": "misc",
   "cookingtime": 200,
   "experience": 0.35,
   "group": "molten_cheese",
   "ingredient": {
     "item": "cyanite:petrified_cheese"
   },
-  "result": "cyanite:molten_cheese",
-  "show_notification": true
+  "result": "cyanite:molten_cheese"
 }

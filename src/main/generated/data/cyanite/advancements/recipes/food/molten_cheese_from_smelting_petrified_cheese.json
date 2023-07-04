@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_petrified_cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cyanite:petrified_cheese"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:molten_cheese_from_smelting_petrified_cheese"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_petrified_cheese",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:molten_cheese_from_smelting_petrified_cheese"
+    ]
+  },
+  "sends_telemetry_event": false
+}
