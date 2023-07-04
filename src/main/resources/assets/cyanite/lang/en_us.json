@@ -1,5 +1,6 @@
 {
-  "item.cyanite.stone_cheese": "Stone Cheese",
+  "item.cyanite.petrified_cheese": "Petrified Cheese",
   "item.cyanite.molten_cheese": "Molten Cheese",
-  "block.cyanite.cheese_ore": "Cheese Ore"
+  "block.cyanite.cheese_ore": "Cheese Ore",
+  "block.cyanite.deepslate_cheese_ore": "Deepslate Cheese Ore"
 }

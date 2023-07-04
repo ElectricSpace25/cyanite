@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cyanite:item/stone_cheese"
+    "layer0": "cyanite:item/petrified_cheese"
   }
 }

@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     //Items
-    public static final Item STONE_CHEESE = registerItem("stone_cheese", new Item(new FabricItemSettings()));
+    public static final Item PETRIFIED_CHEESE = registerItem("petrified_cheese", new Item(new FabricItemSettings()));
     public static final Item MOLTEN_CHEESE = registerItem("molten_cheese", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
@@ -22,10 +22,10 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, STONE_CHEESE);
+        addToItemGroup(ItemGroups.INGREDIENTS, PETRIFIED_CHEESE);
         addToItemGroup(ItemGroups.INGREDIENTS, MOLTEN_CHEESE);
 
-        addToItemGroup(ModItemGroup.CYANITE_GROUP, STONE_CHEESE);
+        addToItemGroup(ModItemGroup.CYANITE_GROUP, PETRIFIED_CHEESE);
         addToItemGroup(ModItemGroup.CYANITE_GROUP, MOLTEN_CHEESE);
 
     }

@@ -19,7 +19,7 @@ public class ModItemGroup {
         CyaniteMod.LOGGER.info("Registering item group for Cyanite");
 
         Registry.register(Registries.ITEM_GROUP, CYANITE_GROUP, FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.STONE_CHEESE)) //Todo: change icon
+            .icon(() -> new ItemStack(ModItems.PETRIFIED_CHEESE)) //Todo: change icon
             .displayName(Text.literal("Cyanite"))
             .build());
     }
