@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "cyanite:cheese_ore"
+    "cyanite:cheese_ore",
+    "cyanite:deepslate_cheese_ore"
   ]
 }

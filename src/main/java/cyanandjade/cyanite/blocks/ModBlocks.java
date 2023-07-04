@@ -5,8 +5,8 @@ import cyanandjade.cyanite.items.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -19,10 +19,23 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block CHEESE_ORE = registerBlock("cheese_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.create().strength(4.0f).requiresTool(), UniformIntProvider.create(2, 5)), ModItemGroup.CYANITE_GROUP);
-            //Todo: change properties as desired
+            new ExperienceDroppingBlock(FabricBlockSettings.create()
+                    .strength(3.0f, 3.0f)
+                    .requiresTool()
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(Instrument.BASEDRUM),
+                    UniformIntProvider.create(0, 2)),
+                    ModItemGroup.CYANITE_GROUP);
 
-    //Todo: make deepslate ore
+    public static final Block DEEPSLATE_CHEESE_ORE = registerBlock("deepslate_cheese_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.create()
+                    .strength(4.5f, 3.0f)
+                    .requiresTool()
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(Instrument.BASEDRUM),
+                    UniformIntProvider.create(0, 2)),
+                    ModItemGroup.CYANITE_GROUP);
+
 
     //Todo: make cheese block
 
