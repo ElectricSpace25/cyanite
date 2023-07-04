@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "molten_cheese",
+  "ingredient": {
+    "item": "cyanite:cheese_ore"
+  },
+  "result": "cyanite:molten_cheese",
+  "show_notification": true
+}
