@@ -18,10 +18,10 @@ public class ModPlacedFeatures {
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
+        //Spawns 7 veins of heese ore per chunk between -20 and 50
         register(context, CHEESE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CHEESE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(50, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
-        //TODO: Change veins per chunk (currently 50)
-        //TODO: Change Y level (currently -80 to 80)
+                ModOrePlacement.modifiersWithCount(7, HeightRangePlacementModifier.trapezoid(YOffset.fixed(-20), YOffset.fixed(50))));
+
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

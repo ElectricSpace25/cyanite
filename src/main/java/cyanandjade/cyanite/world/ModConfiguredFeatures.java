@@ -25,8 +25,9 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.CHEESE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_CHEESE_ORE.getDefaultState()));
 
-        register(context, CHEESE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldCheeseOres, 12));
-        //TODO: Change vein size (currently 12)
+        //Cheese ore vein size = 8
+        register(context, CHEESE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldCheeseOres, 8));
+
     }
 
     public static RegistryKey<ConfiguredFeature<?,?>> registerKey(String name) {
