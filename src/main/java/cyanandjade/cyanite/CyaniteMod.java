@@ -3,6 +3,7 @@ package cyanandjade.cyanite;
 import cyanandjade.cyanite.blocks.ModBlocks;
 import cyanandjade.cyanite.items.ModItemGroup;
 import cyanandjade.cyanite.items.ModItems;
+import cyanandjade.cyanite.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class CyaniteMod implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
+
 	}
 }
