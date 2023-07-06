@@ -14,6 +14,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.CHEESE_ORE, oreDrops(ModBlocks.CHEESE_ORE, ModItems.PETRIFIED_CHEESE));
         addDrop(ModBlocks.DEEPSLATE_CHEESE_ORE, oreDrops(ModBlocks.DEEPSLATE_CHEESE_ORE, ModItems.PETRIFIED_CHEESE));
+        addDrop(ModBlocks.CHEESE_PRESS, drops(ModBlocks.CHEESE_PRESS)); //Is this needed?
 
         //Note: Cheese block loot table is manual
     }

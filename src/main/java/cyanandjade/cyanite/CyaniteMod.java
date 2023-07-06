@@ -1,8 +1,10 @@
 package cyanandjade.cyanite;
 
 import cyanandjade.cyanite.blocks.ModBlocks;
+import cyanandjade.cyanite.blocks.entity.ModBlockEntities;
 import cyanandjade.cyanite.items.ModItemGroup;
 import cyanandjade.cyanite.items.ModItems;
+import cyanandjade.cyanite.screen.ModScreenHandlers;
 import cyanandjade.cyanite.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,10 +18,13 @@ public class CyaniteMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Cyanite loading!");
+
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerAllScreenHandlers();
 
 	}
 }

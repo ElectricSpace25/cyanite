@@ -18,6 +18,7 @@ public class ModModelGenerator extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEESE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_CHEESE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEESE_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHEESE_PRESS);
     }
 
     @Override

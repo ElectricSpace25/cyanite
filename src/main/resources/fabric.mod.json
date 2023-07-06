@@ -16,7 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "cyanandjade.cyanite.CyaniteMod"
+			"cyanandjade.cyanite.CyaniteMod"
+		],
+		"client": [
+			"cyanandjade.cyanite.CyaniteModClient"
 		],
 		"fabric-datagen": [
 			"cyanandjade.cyanite.CyaniteModDataGenerator"

@@ -1,6 +1,7 @@
 package cyanandjade.cyanite.blocks;
 
 import cyanandjade.cyanite.CyaniteMod;
+import cyanandjade.cyanite.blocks.custom.CheesePressBlock;
 import cyanandjade.cyanite.items.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -42,6 +43,12 @@ public class ModBlocks {
                     .strength(1.0f)
                     .mapColor(MapColor.YELLOW)
                     .sounds(BlockSoundGroup.NETHER_STEM)),
+                    ModItemGroup.CYANITE_GROUP);
+
+    public static final Block CHEESE_PRESS = registerBlock("cheese_press",
+            new CheesePressBlock(FabricBlockSettings.create()
+                    .strength(3.0f)
+                    .mapColor(MapColor.YELLOW)),
                     ModItemGroup.CYANITE_GROUP);
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> group) {

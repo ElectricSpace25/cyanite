@@ -1,13 +1,16 @@
-// 1.20.1	2023-07-05T14:42:54.4340912	Cyanite/Model Definitions
-9faebdf6d2816f44fd53bffb1cc9ded44858f2d7 assets\cyanite\blockstates\deepslate_cheese_ore.json
-22214fe4946c65be2626e0c3bd01cefd287458e5 assets\cyanite\models\block\cheese_ore.json
+// 1.20.1	2023-07-05T18:32:55.9163748	Cyanite/Model Definitions
 8262df00ffef4e9d73b98239cb5ae07e46085941 assets\cyanite\models\block\cheese_block.json
 174a637d20cc99b926581f12a325441f5d276884 assets\cyanite\blockstates\cheese_ore.json
+37a15582e872998e6f64b962655fdbe0f0c02fc3 assets\cyanite\blockstates\cheese_press.json
+a6d9fb302c38b6d00ac7e91983516ac852d432f1 assets\cyanite\models\block\cheese_press.json
+c6734b736cba87c09f54025c0ec0d6f43ea99ded assets\cyanite\models\item\cheese_block.json
+9faebdf6d2816f44fd53bffb1cc9ded44858f2d7 assets\cyanite\blockstates\deepslate_cheese_ore.json
+22214fe4946c65be2626e0c3bd01cefd287458e5 assets\cyanite\models\block\cheese_ore.json
 6ca1bfc8a99cea3532b3d91e1eb151a1227c05dd assets\cyanite\blockstates\cheese_block.json
 1dfec4028e3e17863f52b0ce1345cd542719f618 assets\cyanite\models\item\cheese.json
 a3b111ae7e5c9538d824070e49c6dd1a21a9a649 assets\cyanite\models\item\cheese_ore.json
 e131b5595d5d6116e49d951fae198a6fb0b63ba9 assets\cyanite\models\item\molten_cheese.json
+a4125bc55bd959ab0acc51528596537945c45c71 assets\cyanite\models\item\cheese_press.json
 791042510483a6da47d236bc2e6b824eed566188 assets\cyanite\models\item\petrified_cheese.json
 42ecdb21d1208f1f860f10e224cbdf417d9ad80d assets\cyanite\models\block\deepslate_cheese_ore.json
 38610caee0e67a29993dbc61351fd531f726b82d assets\cyanite\models\item\deepslate_cheese_ore.json
-c6734b736cba87c09f54025c0ec0d6f43ea99ded assets\cyanite\models\item\cheese_block.json
